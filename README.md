@@ -25,7 +25,7 @@ mysql comend
    username varchar(255) UNIQUE,
    email varchar(255) UNIQUE,
    PRIMARY KEY(id)                
-   )ENGINE * INNODB;
+   )ENGINE = INNODB;
 CREATE TABLE books (
     book_id int NOT null,
     price  varchar(255),
